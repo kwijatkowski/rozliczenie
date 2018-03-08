@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">  
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C82A01AC-2897-4AE5-B97F-41D89EA48BF6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Trustee.EPPlusHelper</RootNamespace>
+    <AssemblyName>Trustee.EPPlusHelper</AssemblyName>
+    <TargetFramework>net461</TargetFramework>
+    <FileAlignment>512</FileAlignment>
+	      <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+      <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+      <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>  
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="4.1.1" />
+  </ItemGroup>  
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>  
+</Project>
