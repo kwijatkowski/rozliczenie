@@ -53,8 +53,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Binance\BinanceCandleData.cs" />
+    <Compile Include="Binance\BinanceColumns.cs" />
+    <Compile Include="Binance\BinanceDataProvider.cs" />
+    <Compile Include="Bitbay\BitbayColumns.cs" />
+    <Compile Include="Bitbay\BitbayDataProvider.cs" />
+    <Compile Include="Bittrex\BittrexColumns.cs" />
+    <Compile Include="Bittrex\BittrexDataProvider.cs" />
+    <Compile Include="Bittrex\BittrexCandleData.cs" />
+    <Compile Include="Bittrex\OperationData.cs" />
+    <Compile Include="ColumnsOrder.cs" />
+    <Compile Include="ColumnsTranslations.cs" />
+    <Compile Include="ConfStrings.cs" />
+    <Compile Include="DataHelper.cs" />
+    <Compile Include="ExchangeDataProvider.cs" />
+    <Compile Include="HttpHelper.cs" />
+    <Compile Include="IExchangeDataProvider.cs" />
+    <Compile Include="NBPDataProvider.cs" />
+    <Compile Include="PartialSell.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transaction.cs" />
+    <Compile Include="UnixTimeConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

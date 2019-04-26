@@ -69,14 +69,5 @@ namespace Rozliczenie
         public string weightedAverage;
     }
 
-    public class CandleDataBittrex
-    {
-        public string O;
-        public string H;
-        public string C;
-        public string L;
-        public string V;
-        public string T;
-        public string BV;
-    }
+
 }
